@@ -12,6 +12,8 @@ ___x_cmd_ffmpeg(){
     # file to file
     case "$op" in
         show)       ___x_cmd_ffmpeg_show "$@" ;;
+        convert)    ___x_cmd_ffmpeg_convert "$@" ;;
+        play)       ___x_cmd_ffmpeg_play "$@" ;;
         -*)         ___x_cmd_ffmpeg_origin "$@" ;;
         *)
             : detect input and output
