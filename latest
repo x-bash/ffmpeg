@@ -70,4 +70,4 @@ ___x_cmd_ffmpeg_show(){
 
 # EndSection
 
-xrc setmain ___x_cmd_pandoc
+xrc setmain ___x_cmd_ffmpeg_download
