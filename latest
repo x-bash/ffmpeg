@@ -60,4 +60,4 @@ ___x_cmd_ffmpeg_show(){
 
 # EndSection
 
-xrc setmain ___x_cmd_ffmpeg_download
+xrc setmain ___x_cmd_ffmpeg
