@@ -3,7 +3,7 @@
 
 # author:       Li Junhao           l@x-cmd.com
 
-xrc param static-build/lib/staticbin os
+xrc param pkg/lib/staticbin os
 
 ___x_cmd_ffmpeg_download(){
     local arch
