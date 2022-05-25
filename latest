@@ -13,8 +13,6 @@ ___x_cmd_ffmpeg(){
 
 }
 
-x pkg xbin exec ffmpeg "$@"
-
 ___x_cmd_ffmpeg_origin(){
     if ! ___x_cmd_pkg_xbin_init ffmpeg ___x_cmd_ffmpeg_origin; then
         x:error "Fail to pkg_xbin_init ffmpeg"
