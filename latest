@@ -14,7 +14,7 @@ ___x_cmd_ffmpeg(){
 }
 
 ___x_cmd_ffmpeg_origin(){
-    x ffmpeg "$@"
+    x pkg xbin exec ffmpeg "$@"
 }
 
 ___x_cmd_ffmpeg_show(){
