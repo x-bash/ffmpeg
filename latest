@@ -37,8 +37,7 @@ ___x_cmd_ffmpeg(){
         show)       shift; ___x_cmd_ffmpeg_show "$@" ;;
         convert)    shift; ___x_cmd_ffmpeg_convert "$@" ;;
         play)       shift; ___x_cmd_ffmpeg_play "$@" ;;
-        -*)         shift; ___x_cmd_ffmpeg_origin "$@" ;;
-        *)          ___x_cmd_ffmpeg_download "$@" ;;
+        *)          shift; ___x_cmd_ffmpeg_origin "$@" ;;
     esac
 
 }
